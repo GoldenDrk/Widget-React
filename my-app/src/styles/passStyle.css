@@ -1,0 +1,35 @@
+.form-check-input {
+    display: none;
+}
+
+.container-radio-pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 32px;
+}
+
+.container-pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+
+    
+}
+
+.container-circle {
+    width: 80px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+  }
+  .container-circle >:nth-child(2){
+      margin-top: 25px;
+      font-size: 1.2rem;
+      font-weight: 600;
+  }
