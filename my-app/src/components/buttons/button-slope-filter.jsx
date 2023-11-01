@@ -4,7 +4,7 @@ import '../../styles/button-slope-filter.css'
 const Button = (props) => {
     return (
         <div className="container-button">
-            <div className="button">{props.title}</div>
+            <button type="button" className="button">{props.title}</button>
         </div>
     );
 }
