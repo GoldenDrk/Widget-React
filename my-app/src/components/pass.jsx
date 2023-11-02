@@ -16,7 +16,6 @@ const Pass = () => {
                 <RadioPass title="24" />
                 <RadioPass title="36" />
             </div>
-
         </div>
     );
 }
