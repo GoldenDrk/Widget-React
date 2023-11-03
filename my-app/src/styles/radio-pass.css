@@ -42,6 +42,7 @@
     height: 100%;
     position: relative;
     text-align: center;
+    margin-right: 1rem;
 }
 .container-circle >:nth-child(2){
     margin-top: 25px;
