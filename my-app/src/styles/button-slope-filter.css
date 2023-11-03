@@ -22,6 +22,15 @@
     font-size: 1.1rem;
 }
 
-button:focus {
-    background-color: black;
+.actioned {
+    background-color: #f1f3f6;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75) inset;
+}
+
+.filter {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
